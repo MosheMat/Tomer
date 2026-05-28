@@ -6,6 +6,7 @@ Target: Airtable base appd7ZQJo2i52qD4r, table tbl3mUnkwPDsXgf0p
 
 import os
 import re
+import json
 import time
 import requests
 from datetime import datetime, date
