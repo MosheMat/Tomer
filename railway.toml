@@ -1,9 +1,0 @@
-[build]
-builder = "nixpacks"
-
-[deploy]
-startCommand = "python scraper.py"
-
-[[deploy.cronJobs]]
-schedule = "0 6 * * *"
-command = "python scraper.py"
